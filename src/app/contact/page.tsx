@@ -80,7 +80,7 @@ const Contact = () => {
                       Call Us
                     </p>
                     <a href="tel:+923457866677" className="text-gold font-bold text-lg hover:text-black transition">
-                      +92 345 786 6677
+                      +92 304 5159223
                     </a>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ const Contact = () => {
                       Email Us
                     </p>
                     <a href="mailto:info@lawbridgechambers.com" className="text-gold font-bold text-base hover:text-black transition">
-                      info@lawbridgechambers.com
+                     ziaulhaq223520@gmail.com
                     </a>
                   </div>
                 </div>
@@ -114,8 +114,7 @@ const Contact = () => {
                       Main Office
                     </p>
                     <p className="text-text-secondary text-sm leading-relaxed">
-                      Suit No 308, Farid Tower,<br />
-                      19 Temple Road, Lahore.
+                    Session Court Lahore.
                     </p>
                   </div>
                 </div>

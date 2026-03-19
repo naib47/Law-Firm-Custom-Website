@@ -31,7 +31,7 @@ const Hero = () => {
           data-aos-delay="400"
           className="text-5xl md:text-7xl font-black text-white leading-tight drop-shadow-lg"
         >
-          RESULT, SOLUTION,
+      Best Law 
         </h1>
 
         {/* Heading Line 2 */}
@@ -40,7 +40,7 @@ const Hero = () => {
           data-aos-delay="600"
           className="text-5xl md:text-7xl font-black leading-tight mb-6 drop-shadow-lg text-[#c9a84c]"
         >
-          INTEGRITY & EXPERIENCE
+        Consultant In Pakistan
         </h1>
 
         {/* Diamond Divider */}

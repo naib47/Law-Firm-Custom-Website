@@ -47,7 +47,7 @@ const team = [
     name: "Noraiz Ismail Gondal",
     role: "Senior Associate",
     location: "Lahore",
-    bio: "A dedicated lawyer with six years of experience. Completed law degree from University Law College. Key role in providing strategic legal advice and effective representation at LawBridge Chamber.",
+    bio: "A dedicated lawyer with six years of experience. Completed law degree from University Law College. Key role in providing strategic legal advice and effective representation at Zia Law Associate.",
     initials: "NG",
   },
   {
@@ -107,10 +107,22 @@ const OurTeam = () => {
           <h2
             data-aos="fade-up"
             data-aos-delay="200"
-            className="text-4xl font-black text-center mb-14"
+            className="text-4xl font-black text-center mb-4"
           >
             Meet Our <span className="text-gold">Legal Experts</span>
           </h2>
+
+          <p
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="text-text-secondary text-center text-base mb-14 max-w-2xl mx-auto"
+          >
+            Our team of the{" "}
+            <span className="text-gold font-semibold">best lawyers in Pakistan</span>{" "}
+            is dedicated to providing exceptional legal representation across all practice
+            areas. Meet the experts behind{" "}
+            <span className="text-gold font-semibold">Zia Law Associate</span>.
+          </p>
 
           {/* Team Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -160,10 +172,10 @@ const OurTeam = () => {
               Call Now For A Consultation
             </p>
             <Link
-              href="tel:+923457866677"
+              href="tel:+923045159223"
               className="text-gold text-3xl font-black tracking-wider hover:text-black transition block mb-6"
             >
-              +92 345 786 6677
+              +92 304 5159223
             </Link>
             <Link
               href="/contact"

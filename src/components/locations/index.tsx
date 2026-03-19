@@ -82,7 +82,7 @@ const Locations = () => {
             href="tel:+923457866677"
             className="text-gold text-3xl font-black tracking-wider hover:text-text-primary transition"
           >
-            +92 345 786 6677
+            +92 304 5159223
           </Link>
         </div>
 

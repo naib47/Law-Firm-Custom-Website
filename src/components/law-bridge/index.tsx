@@ -5,19 +5,19 @@ import Link from "next/link";
 const points = [
   {
     title: "Client Interests First",
-    desc: "We take time to learn what clients need. We look at their context and the challenges and opportunities they face.",
+    desc: "At Zia Law Associate, we prioritize our clients above everything else. We take time to deeply understand your needs, analyze your unique context, and identify the challenges and opportunities you face.",
   },
   {
-    title: "Practical Advice",
-    desc: "We draw on the huge range and depth of our expertise to develop commercial, effective solutions for clients.",
+    title: "Practical & Actionable Advice",
+    desc: "Our best lawyers in Pakistan draw on decades of expertise to provide clear, practical, and commercially effective legal solutions tailored specifically to your situation.",
   },
   {
     title: "Teams Are More Powerful",
-    desc: "To achieve success, we unite groups with the right mix of sector, product, and jurisdictional knowledge.",
+    desc: "We believe the best legal results come from collaboration. Our expert legal teams bring together specialists with the perfect mix of sector knowledge and jurisdictional expertise.",
   },
   {
     title: "We Invest For The Future",
-    desc: "We invest today to build the firm our clients will need 15, 20, or more years into the future.",
+    desc: "Zia Law Associate continuously invests in people, technology, and legal know-how to build the best law firm our clients will need today, tomorrow, and 20 years into the future.",
   },
 ];
 
@@ -46,7 +46,7 @@ const LawBridge = () => {
           className="text-4xl md:text-5xl font-black text-black text-center mb-3"
         >
           Welcome to{" "}
-          <span className="text-gold">LawBridge LLP</span>
+          <span className="text-gold">Zia Law Associate</span>
         </h2>
 
         {/* Sub Heading */}
@@ -55,7 +55,7 @@ const LawBridge = () => {
           data-aos-delay="300"
           className="text-text-secondary text-center text-lg mb-10 max-w-2xl mx-auto italic"
         >
-          Focused to provide best legal services you can count on
+          Pakistan's Best Law Firm — Trusted Legal Services You Can Count On
         </p>
 
         {/* Divider */}
@@ -69,30 +69,48 @@ const LawBridge = () => {
           <div className="h-[1px] w-24 bg-card-border"></div>
         </div>
 
-        {/* Main Content */}
-        <div
-          data-aos="fade-up"
-          data-aos-delay="400"
-          className="text-text-secondary text-base leading-relaxed mb-6 max-w-4xl mx-auto"
-        >
-          <p className="mb-4">
-            We are one of{" "}
-            <span className="text-gold font-semibold">Pakistan's best law firms</span>,
-            with significant depth and range of resources across Pakistan. We are a single,
-            integrated firm. We take pride in being approachable, fostering a friendly atmosphere,
-            and promoting teamwork. We aim to surpass our clients' expectations. We offer top-notch
-            legal advice, litigation, and legal insights to people living in Pakistan and abroad
-            (Overseas Pakistani). Our work blends{" "}
-            <span className="text-gold font-semibold">global standards</span> with deep
-            local knowledge.
-          </p>
-          <p className="mb-6">
-            Pakistanis around the globe consult us for their legal matters, whether they need a
-            family dispute lawyer, a real estate lawyer in Lahore, a business or corporate lawyer
-            in Pakistan, or assistance with any other legal issues. They place us in this position
-            of trust because:
-          </p>
-        </div>
+{/* Main Content */}
+<div
+  data-aos="fade-up"
+  data-aos-delay="400"
+  className="text-text-secondary text-base leading-relaxed mb-6 max-w-4xl mx-auto"
+>
+  <p className="mb-4">
+    <span className="text-gold font-semibold">Zia Law Associate</span> is recognized as one of the{" "}
+    <span className="text-gold font-semibold">best law firms in Pakistan</span>,
+    with significant depth and range of legal resources across the country. We are a single,
+    fully integrated firm committed to delivering the highest standards of legal excellence.
+    We take pride in being approachable, fostering a friendly atmosphere, and promoting
+    teamwork at every level.
+  </p>
+  <p className="mb-4">
+    Our team of the{" "}
+    <span className="text-gold font-semibold">best lawyers in Pakistan</span> offers
+    top-notch legal advice, litigation support, and legal insights to individuals,
+    corporations, and overseas Pakistanis alike. Our work blends{" "}
+    <span className="text-gold font-semibold">global legal standards</span> with
+    deep local knowledge of Pakistani law — making us the preferred choice for
+    clients across all sectors.
+  </p>
+  <p className="mb-4">
+    As one of the{" "}
+    <span className="text-gold font-semibold">best law firms in Lahore</span>,
+    we are committed to providing exceptional legal representation across all practice
+    areas. From the{" "}
+    <span className="text-gold font-semibold">best criminal lawyers in Pakistan</span> to
+    the most experienced tax and corporate advisors, our firm delivers results that
+    matter most to our clients.
+  </p>
+  <p className="mb-6">
+    Pakistanis around the globe consult{" "}
+    <span className="text-gold font-semibold">Zia Law Associate</span> for their
+    most important legal matters — whether they need the{" "}
+    <span className="text-gold font-semibold">best family dispute lawyer</span>,
+    the <span className="text-gold font-semibold">best real estate lawyer in Lahore</span>,
+    or the <span className="text-gold font-semibold">best corporate lawyer in Pakistan</span>.
+    They place their trust in us because:
+  </p>
+</div>
 
         {/* 4 Points Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -106,7 +124,7 @@ const LawBridge = () => {
               <div className="w-8 h-8 bg-gold flex items-center justify-center mb-4">
                 <span className="text-white font-black text-sm">{index + 1}</span>
               </div>
-              <h3 className="text-text-primary font-bold text-sm tracking-wider uppercase mb-3 group-hover:text-gold transition">
+              <h3 className="font-bold text-sm tracking-wider uppercase mb-3 group-hover:text-gold transition">
                 {point.title}
               </h3>
               <p className="text-text-secondary text-sm leading-relaxed">
@@ -116,34 +134,18 @@ const LawBridge = () => {
           ))}
         </div>
 
-        {/* Bottom Paragraph */}
+        {/* CTA Button */}
         <div
           data-aos="fade-up"
-          data-aos-delay="300"
-          className="max-w-4xl mx-auto"
+          data-aos-delay="400"
+          className="text-center"
         >
-          <p className="text-text-secondary text-base leading-relaxed mb-4">
-            As a leader in our field, we hold ourselves to high standards in all our actions.
-            We commit to inspiring the trust of our stakeholders by making{" "}
-            <span className="text-gold font-semibold">Responsible Business</span> a central
-            part of our strategy. This encompasses how we do business and manage risk, as well as
-            our commitment to our people, communities, and the environment.
-          </p>
-          <p className="text-text-secondary text-base leading-relaxed mb-8">
-            Last, but not least, we aim to be{" "}
-            <span className="text-gold font-semibold">easy to work with</span>,
-            down-to-earth, and approachable.
-          </p>
-
-          {/* CTA Button */}
-          <div data-aos="fade-up" data-aos-delay="400">
-            <Link
-              href="/firm-overview"
-              className="inline-block border-2 border-gold text-gold font-bold px-10 py-3 text-xs tracking-widest uppercase hover:bg-gold hover:text-white transition"
-            >
-              LEARN MORE ABOUT US
-            </Link>
-          </div>
+          <Link
+            href="/firm-overview"
+            className="inline-block border-2 border-gold text-gold font-bold px-10 py-3 text-xs tracking-widest uppercase hover:bg-gold hover:text-white transition"
+          >
+            LEARN MORE ABOUT US
+          </Link>
         </div>
 
       </div>

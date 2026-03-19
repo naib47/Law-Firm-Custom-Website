@@ -44,9 +44,13 @@ const Testimonials = () => {
         {/* Single Review */}
         <div data-aos="fade-up" data-aos-delay="400">
           <p className="text-black text-xl md:text-2xl leading-relaxed font-light italic mb-8">
-            "I needed to file back income taxes and found LawBridge LLP online.
-            I contacted them and working with their Taxation attorney was a positive experience.
-            There was constant communication. They worked on my behalf."
+            "I needed to file back income taxes and found{" "}
+            <span className="text-gold font-semibold">Zia Law Associate</span> — the{" "}
+            <span className="text-gold font-semibold">best law firm in Pakistan</span> — online.
+            I contacted them and working with their{" "}
+            <span className="text-gold font-semibold">best Taxation attorney</span> was a
+            positive experience. There was constant communication. They worked on my behalf
+            and delivered outstanding results."
           </p>
           <p className="text-gold font-bold text-sm tracking-widest uppercase mb-10">
             — Muhammad Hafeez

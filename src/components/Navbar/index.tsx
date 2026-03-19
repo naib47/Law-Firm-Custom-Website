@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../../public/images/logo.png";
+import Logo from "../../../public/images/logo.jpeg";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
             href="tel:+923457866677"
             className="text-text-muted font-bold text-3xl tracking-wide hover:text-nav-bg transition"
           >
-            +92 345 786 6677
+           +92 304 5159223
           </Link>
         </div>
       </div>

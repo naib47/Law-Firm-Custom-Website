@@ -42,22 +42,32 @@ const FirmOverview = () => {
               </p>
             </div>
             <h2 className="text-3xl md:text-4xl font-black mb-6">
-              At <span className="text-gold">Lawbridge LLP</span>
+              At <span className="text-gold">Zia Law Associate</span>
             </h2>
             <p className="text-text-secondary text-base leading-relaxed mb-4">
-              At Lawbridge LLP, we are proud to be recognized as one of the{" "}
+              <span className="text-gold font-semibold">Zia Law Associate</span> is proudly
+              recognized as one of the{" "}
               <span className="text-gold font-semibold">best law firms in Pakistan</span>,
               offering top-notch legal services with a strong presence across the country.
-              Whether you're looking for a{" "}
-              <span className="text-gold font-semibold">Karachi lawyer</span> or a{" "}
-              <span className="text-gold font-semibold">Lahore lawyer</span>, our fully
+              Whether you're looking for the{" "}
+              <span className="text-gold font-semibold">best lawyer in Karachi</span> or the{" "}
+              <span className="text-gold font-semibold">best lawyer in Lahore</span>, our fully
               integrated team delivers unmatched expertise and personalized support to our clients.
             </p>
-            <p className="text-text-secondary text-base leading-relaxed">
+            <p className="text-text-secondary text-base leading-relaxed mb-4">
               Our clientele includes businesses from various commercial and industrial sectors,
               government bodies, regulators, trade organizations, and non-profits. Combining
-              global standards with deep local knowledge, we provide practical solutions for
-              even the most complex legal matters.
+              <span className="text-gold font-semibold"> global legal standards</span> with
+              deep local knowledge, we provide practical solutions for even the most complex
+              legal matters across Pakistan.
+            </p>
+            <p className="text-text-secondary text-base leading-relaxed">
+              As one of the{" "}
+              <span className="text-gold font-semibold">best law firms in Lahore</span>,
+              we are committed to excellence in every case we handle — from family law and
+              criminal defense to corporate law and real estate disputes. Our{" "}
+              <span className="text-gold font-semibold">best lawyers in Pakistan</span> work
+              tirelessly to protect your rights and deliver the results you deserve.
             </p>
           </div>
 
@@ -73,9 +83,16 @@ const FirmOverview = () => {
               Why We're Trusted as the{" "}
               <span className="text-gold">Best Lawyers in Pakistan</span>
             </h2>
-            <p className="text-text-secondary text-base leading-relaxed mb-8">
-              Leading organizations in Pakistan and across the globe trust Lawbridge LLP not
+            <p className="text-text-secondary text-base leading-relaxed mb-4">
+              Leading organizations in Pakistan and across the globe trust{" "}
+              <span className="text-gold font-semibold">Zia Law Associate</span> not
               just for legal representation but for guidance on critical legal issues.
+            </p>
+            <p className="text-text-secondary text-base leading-relaxed mb-8">
+              From multinational corporations to individual clients, our reputation as the{" "}
+              <span className="text-gold font-semibold">best law firm in Pakistan</span> is
+              built on years of delivering exceptional legal outcomes with integrity,
+              dedication, and professionalism.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -83,12 +100,12 @@ const FirmOverview = () => {
                 {
                   num: "01",
                   title: "Client-Focused Approach",
-                  desc: "We prioritize your interests by understanding your business, challenges, and opportunities.",
+                  desc: "We prioritize your interests by understanding your business, challenges, and opportunities to deliver the best legal outcomes.",
                 },
                 {
                   num: "02",
                   title: "Actionable Solutions",
-                  desc: "With our extensive expertise, we provide advice that is clear, practical, and effective.",
+                  desc: "Our best lawyers in Pakistan provide advice that is clear, practical, and effective for every unique situation.",
                 },
                 {
                   num: "03",
@@ -98,7 +115,7 @@ const FirmOverview = () => {
                 {
                   num: "04",
                   title: "Forward-Thinking Vision",
-                  desc: "We invest in the future to build a firm that continues to meet your evolving needs with advanced resources and innovative strategies.",
+                  desc: "We invest in the future to build the best law firm that continues to meet your evolving needs with advanced resources and innovative strategies.",
                 },
               ].map((item, index) => (
                 <div
@@ -110,7 +127,7 @@ const FirmOverview = () => {
                   <p className="text-gold font-black text-3xl mb-3 opacity-30">
                     {item.num}
                   </p>
-                  <h3 className="text-text-primary font-bold text-sm tracking-wider uppercase mb-3 group-hover:text-gold transition">
+                  <h3 className="font-bold text-sm tracking-wider uppercase mb-3 group-hover:text-gold transition">
                     {item.title}
                   </h3>
                   <p className="text-text-secondary text-sm leading-relaxed">{item.desc}</p>
@@ -131,28 +148,46 @@ const FirmOverview = () => {
               Commitment to <span className="text-gold">Excellence</span>
             </h2>
             <p className="text-text-secondary text-base leading-relaxed mb-4">
-              As a leader in the legal field, Lawbridge LLP is committed to the highest
-              standards of professionalism and responsibility. We integrate ethical and
-              sustainable practices into our work, ensuring that we serve not only our
-              clients but also the broader community.
+              As a leader in the legal field,{" "}
+              <span className="text-gold font-semibold">Zia Law Associate</span> is committed
+              to the highest standards of professionalism and responsibility. We integrate
+              ethical and sustainable practices into our work, ensuring that we serve not only
+              our clients but also the broader community.
+            </p>
+            <p className="text-text-secondary text-base leading-relaxed">
+              Our commitment to being the{" "}
+              <span className="text-gold font-semibold">best law firm in Pakistan</span> means
+              we never compromise on quality, ethics, or client satisfaction — in every case,
+              at every stage.
             </p>
           </div>
 
           {/* Why Choose */}
           <div data-aos="fade-up" data-aos-delay="400" className="mb-12 bg-card-bg border border-card-border p-8 shadow-sm">
             <h2 className="text-3xl font-black mb-4">
-              Why Choose <span className="text-gold">Lawbridge LLP?</span>
+              Why Choose <span className="text-gold">Zia Law Associate?</span>
             </h2>
             <p className="text-text-secondary text-base leading-relaxed mb-4">
-              We're not just about expertise; we're about approachability. At Lawbridge LLP,
+              We're not just about expertise; we're about approachability. At{" "}
+              <span className="text-gold font-semibold">Zia Law Associate</span>,
               we pride ourselves on being friendly, down-to-earth, and easy to work with.
               When you choose us, you're choosing a reliable partner who puts your success first.
             </p>
+            <p className="text-text-secondary text-base leading-relaxed mb-4">
+              For the{" "}
+              <span className="text-gold font-semibold">best lawyers in Pakistan</span>,
+              whether you need the{" "}
+              <span className="text-gold font-semibold">best lawyer in Karachi</span>, the{" "}
+              <span className="text-gold font-semibold">best lawyer in Lahore</span>,
+              or legal expertise anywhere else in Pakistan — trust{" "}
+              <span className="text-gold font-semibold">Zia Law Associate</span> to
+              deliver exceptional results.
+            </p>
             <p className="text-text-secondary text-base leading-relaxed">
-              For the best lawyers in Pakistan, whether you need a{" "}
-              <span className="text-gold font-semibold">Karachi lawyer</span>,
-              a <span className="text-gold font-semibold">Lahore lawyer</span>,
-              or legal expertise anywhere else, trust Lawbridge LLP to deliver exceptional results.
+              Our track record speaks for itself. With hundreds of successful cases across
+              all major practice areas, we are the{" "}
+              <span className="text-gold font-semibold">best law firm in Pakistan</span>{" "}
+              you can count on for all your legal needs.
             </p>
           </div>
 
@@ -163,9 +198,9 @@ const FirmOverview = () => {
             </p>
             <Link
               href="tel:+923457866677"
-              className="text-gold text-3xl font-black tracking-wider hover:text-text-primary transition block mb-6"
+              className="text-gold text-3xl font-black tracking-wider hover:text-black transition block mb-6"
             >
-              +92 345 786 6677
+              +92 304 5159223
             </Link>
             <Link
               href="/contact"
