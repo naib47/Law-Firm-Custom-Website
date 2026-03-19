@@ -88,11 +88,11 @@ const Navbar = () => {
             </Link>
           </li>
 
-          <li>
+          {/* <li>
             <Link href="/blog" className="block px-5 py-5 text-white text-xs font-bold tracking-widest uppercase hover:bg-nav-hover transition">
               BLOG
             </Link>
-          </li>
+          </li> */}
         </ul>
 
         {/* Mobile Hamburger */}
