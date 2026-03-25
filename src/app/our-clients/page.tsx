@@ -106,16 +106,7 @@ const clients = [
     category: "Agriculture",
     desc: "Handled corporate law, intellectual property and agricultural regulatory compliance matters.",
   },
-  {
-    name: "Pure N Healthy",
-    category: "Health & Wellness",
-    desc: "Provided corporate legal services, contract drafting and regulatory compliance support.",
-  },
-  {
-    name: "Customs Pillows (SMC) Pvt Limited",
-    category: "Manufacturing",
-    desc: "Assisted with corporate matters, customs law and commercial dispute resolution services.",
-  },
+
 ];
 
 const OurClients = () => {
@@ -224,7 +215,6 @@ const OurClients = () => {
                 data-aos-delay={80 * (index % 3 + 1)}
                 className="bg-card-bg border border-card-border hover:border-gold transition-all duration-300 group p-6 shadow-sm"
               >
-                {/* Top Row */}
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-gold/40 font-black text-xs">
                     {String(index + 1).padStart(2, "0")}
@@ -234,15 +224,12 @@ const OurClients = () => {
                   </span>
                 </div>
 
-                {/* Gold Line */}
                 <div className="h-[2px] w-8 bg-gold mb-3 group-hover:w-full transition-all duration-500"></div>
 
-                {/* Name */}
                 <h3 className="font-black text-base mb-3 group-hover:text-gold transition">
                   {client.name}
                 </h3>
 
-                {/* Desc */}
                 <p className="text-text-secondary text-sm leading-relaxed">
                   {client.desc}
                 </p>
@@ -261,13 +248,13 @@ const OurClients = () => {
             </h3>
             <p className="text-text-secondary text-base leading-relaxed mb-4">
               From multinational corporations to government authorities, our clients choose
-              LawBridge LLP because of our unwavering commitment to excellence, deep legal
+              Zia Law Associate because of our unwavering commitment to excellence, deep legal
               expertise, and personalized approach to every case.
             </p>
             <p className="text-text-secondary text-base leading-relaxed">
               We understand that every client has unique needs, and we tailor our legal
               strategies accordingly. Our track record of success across diverse industries
-              speaks for itself — when you choose LawBridge LLP, you choose a partner
+              speaks for itself — when you choose Zia Law Associate, you choose a partner
               dedicated to your success.
             </p>
           </div>
@@ -285,10 +272,10 @@ const OurClients = () => {
               Call Now For A <span className="text-gold">Consultation</span>
             </h3>
             <Link
-              href="tel:+923457866677"
+              href="tel:+923045159223"
               className="text-gold text-3xl font-black tracking-wider hover:text-black transition block mb-6"
             >
-              +92 345 786 6677
+              +92 304 5159223
             </Link>
             <Link
               href="/contact"

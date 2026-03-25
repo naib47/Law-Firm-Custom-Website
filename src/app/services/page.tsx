@@ -5,93 +5,88 @@ const services = [
     num: "01",
     title: "Family Law",
     icon: "⚖️",
-    desc: "Our family law attorneys provide compassionate and expert legal guidance for all family-related matters including divorce, child custody, guardianship, inheritance disputes, and matrimonial issues. We understand the emotional complexity of family disputes and work to protect your rights and interests.",
+    desc: "Our best family law attorneys at Zia Law Associate provide compassionate and expert legal guidance for all family-related matters including divorce, child custody, guardianship, inheritance disputes, and matrimonial issues. We understand the emotional complexity of family disputes and work to protect your rights and interests.",
     points: ["Divorce & Separation", "Child Custody & Guardianship", "Inheritance & Will Disputes", "Matrimonial Issues", "Family Mediation"],
   },
   {
     num: "02",
     title: "Criminal Law",
     icon: "🏛️",
-    desc: "Our criminal defense lawyers provide aggressive representation for individuals facing criminal charges. From minor offenses to serious criminal matters, we ensure your rights are protected throughout the legal process with expert defense strategies.",
+    desc: "Our best criminal defense lawyers in Pakistan provide aggressive representation for individuals facing criminal charges. From minor offenses to serious criminal matters, we ensure your rights are protected throughout the legal process with expert defense strategies.",
     points: ["Criminal Defense", "Bail Applications", "Appeals & Revisions", "White Collar Crimes", "Cybercrime Defense"],
   },
   {
     num: "03",
     title: "Corporate Law",
     icon: "🏢",
-    desc: "We provide comprehensive corporate legal services to businesses of all sizes. From company formation to complex commercial transactions, our corporate lawyers ensure your business operates within the legal framework while maximizing growth opportunities.",
+    desc: "Zia Law Associate provides comprehensive corporate legal services to businesses of all sizes. Our best corporate lawyers in Pakistan ensure your business operates within the legal framework while maximizing growth opportunities.",
     points: ["Company Formation", "Mergers & Acquisitions", "Contract Drafting", "Corporate Governance", "Commercial Disputes"],
   },
   {
     num: "04",
     title: "Real Estate Law",
     icon: "🏠",
-    desc: "Our real estate lawyers handle all property-related legal matters including purchase, sale, lease agreements, property disputes, and title verification. We ensure your property transactions are legally sound and your investments are protected.",
+    desc: "Our best real estate lawyers in Pakistan handle all property-related legal matters including purchase, sale, lease agreements, property disputes, and title verification. We ensure your property transactions are legally sound and your investments are protected.",
     points: ["Property Purchase & Sale", "Title Verification", "Lease Agreements", "Property Disputes", "Housing Society Issues"],
   },
   {
     num: "05",
     title: "Civil Litigation",
     icon: "📋",
-    desc: "Our civil litigation team provides strong representation in civil courts across Pakistan. We handle a wide range of civil disputes with strategic legal approaches to achieve the best possible outcomes for our clients.",
+    desc: "Our best civil litigation lawyers in Pakistan provide strong representation in civil courts across the country. We handle a wide range of civil disputes with strategic legal approaches to achieve the best possible outcomes for our clients.",
     points: ["Civil Suits", "Contract Disputes", "Injunctions", "Recovery Suits", "Civil Appeals"],
   },
   {
     num: "06",
     title: "Tax Law",
     icon: "💼",
-    desc: "Our tax lawyers provide expert guidance on all taxation matters including tax planning, compliance, and dispute resolution. We help individuals and businesses navigate the complex Pakistani tax system efficiently.",
+    desc: "Our best tax lawyers in Pakistan provide expert guidance on all taxation matters including tax planning, compliance, and dispute resolution. We help individuals and businesses navigate the complex Pakistani tax system efficiently.",
     points: ["Tax Planning", "FBR Disputes", "Tax Appeals", "Corporate Taxation", "Income Tax Returns"],
   },
   {
     num: "07",
     title: "Intellectual Property",
     icon: "💡",
-    desc: "We protect your intellectual property rights including trademarks, patents, copyrights, and trade secrets. Our IP lawyers ensure your creative works and business innovations are legally protected from infringement.",
+    desc: "Zia Law Associate's best IP lawyers protect your intellectual property rights including trademarks, patents, copyrights, and trade secrets. We ensure your creative works and business innovations are legally protected from infringement.",
     points: ["Trademark Registration", "Patent Filing", "Copyright Protection", "IP Litigation", "Trade Secret Protection"],
   },
   {
     num: "08",
     title: "Banking & Finance Law",
     icon: "🏦",
-    desc: "Our banking and finance lawyers handle all financial legal matters including loan agreements, banking disputes, and financial regulatory compliance. We represent both financial institutions and their clients.",
+    desc: "Our best banking and finance lawyers in Pakistan handle all financial legal matters including loan agreements, banking disputes, and financial regulatory compliance. We represent both financial institutions and their clients.",
     points: ["Loan Agreements", "Banking Disputes", "Financial Regulation", "Debt Recovery", "Islamic Finance"],
   },
   {
     num: "09",
     title: "Insurance Law",
     icon: "🛡️",
-    desc: "We represent clients in insurance-related legal matters including policy disputes, claim rejections, and insurance fraud cases. Our lawyers ensure you receive fair treatment from insurance companies.",
+    desc: "Zia Law Associate's best insurance lawyers represent clients in all insurance-related legal matters including policy disputes, claim rejections, and insurance fraud cases. We ensure you receive fair treatment from insurance companies.",
     points: ["Insurance Claims", "Policy Disputes", "Claim Rejection Appeals", "Insurance Fraud", "Regulatory Compliance"],
   },
   {
     num: "10",
     title: "Sports Law",
     icon: "🏆",
-    desc: "Our sports law practice covers all legal aspects of the sports industry including contracts, disputes, regulatory matters, and player rights. We represent athletes, clubs, and sports organizations.",
+    desc: "Our best sports lawyers in Pakistan cover all legal aspects of the sports industry including contracts, disputes, regulatory matters, and player rights. We represent athletes, clubs, and sports organizations.",
     points: ["Player Contracts", "Sports Disputes", "Doping Cases", "Club Governance", "Sports Arbitration"],
   },
   {
     num: "11",
     title: "Health Law",
     icon: "⚕️",
-    desc: "We provide specialized legal services for the healthcare industry including medical negligence, regulatory compliance, and healthcare facility matters. Our lawyers understand the unique legal challenges of the healthcare sector.",
+    desc: "Zia Law Associate provides specialized legal services for the healthcare industry including medical negligence, regulatory compliance, and healthcare facility matters. Our best health lawyers understand the unique legal challenges of the healthcare sector.",
     points: ["Medical Negligence", "Healthcare Regulation", "Hospital Disputes", "Pharmaceutical Law", "Patient Rights"],
   },
   {
     num: "12",
     title: "International Business Law",
     icon: "🌍",
-    desc: "Our international business lawyers assist clients with cross-border transactions, foreign investment, and international trade matters. We combine global expertise with deep knowledge of Pakistani law.",
+    desc: "Our best international business lawyers assist clients with cross-border transactions, foreign investment, and international trade matters. We combine global expertise with deep knowledge of Pakistani law.",
     points: ["Foreign Investment", "Cross-border Transactions", "International Trade", "Joint Ventures", "International Arbitration"],
   },
-  {
-    num: "13",
-    title: "Alternate Dispute Resolution",
-    icon: "🤝",
-    desc: "We offer expert ADR services as an efficient alternative to lengthy court proceedings. Our mediators and arbitrators help parties resolve disputes quickly and cost-effectively while preserving business relationships.",
-    points: ["Mediation", "Arbitration", "Negotiation", "Conciliation", "Settlement Agreements"],
-  },
+  
+ 
 ];
 
 const Services = () => {
@@ -153,7 +148,9 @@ const Services = () => {
             data-aos-delay="300"
             className="text-text-secondary text-center text-base mb-14 max-w-2xl mx-auto"
           >
-            We offer comprehensive legal services across all major areas of law in Pakistan
+            <span className="text-gold font-semibold">Zia Law Associate</span> — home to the{" "}
+            <span className="text-gold font-semibold">best lawyers in Pakistan</span> — offers
+            comprehensive legal services across all major areas of law
           </p>
 
           {/* Services Grid */}
@@ -212,10 +209,10 @@ const Services = () => {
               Call Now For A <span className="text-gold">Consultation</span>
             </h3>
             <Link
-              href="tel:+923457866677"
+              href="tel:+923045159223"
               className="text-gold text-3xl font-black tracking-wider hover:text-black transition block mb-6"
             >
-              +92 345 786 6677
+              +92 304 5159223
             </Link>
             <Link
               href="/contact"

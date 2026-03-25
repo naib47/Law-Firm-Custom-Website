@@ -88,6 +88,12 @@ const Navbar = () => {
             </Link>
           </li>
 
+           <li>
+            <Link href="/blog" className="block px-5 py-5 text-white text-xs font-bold tracking-widest uppercase hover:bg-nav-hover transition border-r border-nav-border">
+              Blog
+            </Link>
+          </li>
+
           {/* <li>
             <Link href="/blog" className="block px-5 py-5 text-white text-xs font-bold tracking-widest uppercase hover:bg-nav-hover transition">
               BLOG
